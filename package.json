@@ -1,0 +1,25 @@
+{
+  "name": "musicoftheskies",
+  "version": "1.0.0",
+  "description": "Requests real-time air-traffic data in a Babylon.js visualizer and uses it to generate unique piano music.",
+  "homepage": "https://github.com/Spinodon2010/MusicOfTheSkies#readme",
+  "bugs": {
+    "url": "https://github.com/Spinodon2010/MusicOfTheSkies/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spinodon2010/MusicOfTheSkies.git"
+  },
+  "license": "MIT",
+  "author": "Christopher \"Kip\" Pilcher",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "mime-types": "^3.0.2",
+    "nodemon": "^3.1.14"
+  }
+}

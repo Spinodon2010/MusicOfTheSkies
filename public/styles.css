@@ -1,0 +1,47 @@
+@charset 'utf-8';
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+#RenderingScreen {
+    background-color: #000000;
+    border: none;
+    position: absolute;
+}
+
+body {
+    background-color: black;
+}
+
+#mainHeader {
+    color:#DCDCCD;
+    font-size: 150px;
+    justify-self: center;
+    animation: fadeInLeft 3s ease-out forwards;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0px;
+}
+
+.orbitron-title {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000px;
+  font-style: normal;
+}
+
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    /* transform: translateX(-100px); */
+  }
+  100% {
+    opacity: 1;
+    /* transform: translateX(0); */
+  }
+}
+
+/* transform: perspective(600px) rotateY(-90deg); */
